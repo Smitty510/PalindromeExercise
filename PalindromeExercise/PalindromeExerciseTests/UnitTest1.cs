@@ -6,6 +6,7 @@ namespace PalindromeExerciseTests
     public class UnitTest1
     {
         [Theory]
+        [InlineData("horse", false)]
         [InlineData("racecar", true)]
         //[InlineData("Yo, Banana Boy", true)]
         [InlineData("tattarrattat", true)]
