@@ -8,7 +8,7 @@ namespace PalindromeExerciseTests
         [Theory]
         [InlineData("horse", false)]
         [InlineData("racecar", true)]
-        //[InlineData("Yo, Banana Boy", true)]
+        [InlineData("Yo, Banana Boy", false)]
         [InlineData("tattarrattat", true)]
         public void IsAPalindromeTest1(string someWord, bool expected)
         {
